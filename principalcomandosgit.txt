@@ -1,6 +1,12 @@
 estado de los archivos en la consola
 git status
 
+muestra contenido de carpetas
+ls
+
+muestra contenido de carpetas y documentos ocultos
+ls -al
+
 abrir archivo
 cd y ruta para abri el archivo ejemplo cd /C/Users/Public/Git/Proyecto1
 
@@ -12,6 +18,9 @@ git log historia.txt
 
 se copian los Id para comparar cambios entre commit
 git diff ab1f35ead47 31aa6d57986
+
+muestra los cambios en el archivo
+git diff
 
 abrir el cod de visualStudio
 code hsitoria.txt
