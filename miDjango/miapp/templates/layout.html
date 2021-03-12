@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        {%block title%}
+        <!--titulo de cada pagina-->
+        {%endblock%}
+        German Barbosa</title>
+        {%load static%}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+
+<body>
+    <!--cabecera de la pagina-->
+    <header>
+        <div id="logotipo">
+            <!--logo de Django-->
+            <img src="{%static 'images/logo.png'%}"/>
+            <h1>Sitio WEB con Django</h1>
+        </div>
+        
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="{% url 'inicio' %}">Inicio</a>
+            </li>
+            <li>
+                <a href="{% url 'articulos' %}">Articulos</a>
+            </li>
+            <li>
+                <a href="{% url 'create' %}">Crear Articulos</a>
+            </li>
+            <li>
+                <a href="{% url 'create_full' %}">Crear Articulo 2</a>
+            </li>
+            <li>
+                <a href="{% url 'hola-mundo' %}">Hola Mundo</a>
+            </li>
+            <li>
+                <a href="/pagina-pruebas">Pagina de Pruebas</a>
+            </li>
+            <li>
+                <a href="{% url 'contacto' 'german' 'barbosa' %}">contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="barra"> 
+        <span class="esquina-izquierda"></span>
+        <span class="relleno-barra"></span>
+        <span class="esquina-derecha"></span>
+        
+    </div>
+    <div id="content">
+        <div class="box">
+            {%block content%}
+    
+            {%endblock%}  
+        </div>
+        
+
+    </div>
+   
+{% comment 'Esto es la prueba de un comentario'%}
+{%endcomment%}
+<footer>
+    Master en python &copy; German Barbosa WEB - {% now "d/m/y" %}
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{%extends 'layout.html'%}
+
+{%block title%}inicio{%endblock%}
+{%block content%}
+
+
+<h1 class="title">{{title}}</h1>
+
+<p>{{mi_variable}}</p>
+
+{% if nombre and nombre == 'german barbosa'%}
+  <p>{{nombre}}</p>
+{% else %}
+  <strong>El nombre no existe o no coinside</strong>
+{% endif %}
+
+<h3>Listado de Lenguajes</h3>
+<ul>
+    {% for lenguaje in lenguajes %}
+        <li>{{forloop.counter}} {{lenguaje}} </li>
+        {% empty %}
+             <p>NO HAY LENGUAJES QUE MOSTRAR</p>
+    {% endfor %}
+</ul>
+
+
+
+{% include 'fecha_actual.html' with saludo="Hola mundo desde las plantillas"%}
+{%endblock%}
+
