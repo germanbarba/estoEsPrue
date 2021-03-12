@@ -20,6 +20,8 @@ agregar archivo al repositorio
 git add .
  
 hacerl el commit del archivo guardado
-git commit -m
+git commit -m "mensaje entre comillas"
 
-esto e una prueba mas
+git ini "espacio en memoria ram donde se van a ir guardando los cambios" . git estan todos 
+los cambios del archivo, git add se suben los archivos y se remueven con el comando rm, se
+agrega con git commit -m
