@@ -1,3 +1,6 @@
+estado de los archivos en la consola
+git status
+
 abrir archivo
 cd y ruta para abri el archivo ejemplo cd /C/Users/Public/Git/Proyecto1
 
