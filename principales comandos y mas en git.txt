@@ -1,0 +1,11 @@
+abrir archivo
+cd y ruta para abri el archivo ejemplo cd /C/Users/Public/Git/Proyecto1
+
+historia del archivo y cambios de los mismos
+git show historia.txt
+
+abrir el cod de visualStudio
+code hsitoria.txt
+
+limpiar consola 
+clear -- control+c
