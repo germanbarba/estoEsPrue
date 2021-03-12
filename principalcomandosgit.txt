@@ -16,6 +16,9 @@ git show historia.txt
 muestra todo el historial de cabios con sus Id
 git log historia.txt
 
+muestra los bit agregados al archivo y sus modificaciones
+git log --stat
+
 se copian los Id para comparar cambios entre commit
 git diff ab1f35ead47 31aa6d57986
 
