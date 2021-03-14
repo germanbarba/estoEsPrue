@@ -47,3 +47,6 @@ agrega con git commit -m
 para volver a una version anterior untilizamos git reset y pegamos el Ide al que queremos volver (--hard reset
 duro y peligroso) en cambio (--soft vuelve a la version anterior queda disponible)
 git reset ab1f35ead47 31aa6d57986 --hard
+
+***********trabajar en ramas********
+
