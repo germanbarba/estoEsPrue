@@ -52,5 +52,9 @@ duro y peligroso) en cambio (--soft vuelve a la version anterior queda disponibl
 git reset ab1f35ead47 31aa6d57986 --hard
 
 ***********trabajar en ramas********
+crear rama en el lugar donde estoy
+git branch cabecera
+ahora me muevo a la rama creada cabecera
+git checkout cabecera
 
 
