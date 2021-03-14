@@ -44,9 +44,13 @@ git ini "espacio en memoria ram donde se van a ir guardando los cambios" . git e
 los cambios del archivo, git add se suben los archivos y se remueven con el comando rm, se
 agrega con git commit -m
 
+agrega cambios cuado a se ha trabajado en el proyecto y se ha guardado en el mismo
+git commit -am "mensaje"
+
 para volver a una version anterior untilizamos git reset y pegamos el Ide al que queremos volver (--hard reset
 duro y peligroso) en cambio (--soft vuelve a la version anterior queda disponible)
 git reset ab1f35ead47 31aa6d57986 --hard
 
 ***********trabajar en ramas********
+
 
