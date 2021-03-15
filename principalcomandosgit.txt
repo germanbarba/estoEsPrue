@@ -65,6 +65,13 @@ fucionar ramas
 git merge cabecera  estando en la rama master ------"nombre de la rama"
 
 
+***************ahora GitHub***********
+registro en gitHub
+usuario: germanbarba
+correo: tito2112230@gmail.com
+contraseña: ger21101974
+
+
 
 
 
