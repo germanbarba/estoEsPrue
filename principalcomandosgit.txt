@@ -71,6 +71,47 @@ usuario: germanbarba
 correo: tito2112230@gmail.com
 contraseña: ger21101974
 
+*************conexion a github con ssh (llaves)**********
+localizacion actual
+pwd
+
+crear llave
+ssh-keygen -t rsa -b 4096 -C "aquicorreo@"
+
+contraseña llave
+ger2112230
+
+imagen llave
++---[RSA 4096]----+
+|         o+o++o  |
+|        oo...+.  |
+|      .o..o o+.  |
+|     ..o.o ..+o+ |
+|      = S. .o.= .|
+|     * o..o.oo E |
+|    + +  oo= .o..|
+|     o    o.+ . +|
+|           . ..+ |
++----[SHA256]-----+
+
+
+consultar que hay conexion o flujo de informacion en las llaves esten config
+eval $(ssh-agent -s)
+Agent pid 1096
+
+entrar a la carpeta donde esta la llave
+cd ~/.ssh/
+
+agregar la llave a git
+$ ssh-add ~/.ssh/id_rsa
+Enter passphrase for /c/Users/ADMIN/.ssh/id_rsa:
+Identity added: /c/Users/ADMIN/.ssh/id_rsa (tito2112230@gmail.com)
+
+
+
+
+
+
 
 
 
