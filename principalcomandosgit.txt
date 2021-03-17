@@ -108,6 +108,51 @@ Enter passphrase for /c/Users/ADMIN/.ssh/id_rsa:
 Identity added: /c/Users/ADMIN/.ssh/id_rsa (tito2112230@gmail.com)
 
 
+*******trabajar gitHub de modo remoto*********
+empezamos atrabajar de modo remoto gitHub desde ahora
+configuramos para trabajar con las llaves sin necesidad de autentiacion 
+1.entra a tu perfil
+2.editar perfil
+3.claves ssh y gpg
+4.nueva claveSSH
+5.pegamos el valor encriptado de la la llave y le colocamos su definicion
+6.vamos a la consola local de git
+7.verificamos configuracion de git
+
+git remote -v
+origin  https://github.com/germanbarba/estoEsPrue.git (fetch)
+origin  https://github.com/germanbarba/estoEsPrue.git (push)
+
+8.cambiamos la configuacion URL
+git remote set-url origin git@github.com:germanbarba/estoEsPrue.git
+se coloca la direccion generada por el SSH (boton de direcciones proyecto)
+
+9.ahora se verifica que la configuarion cambio
+$ git remote -v
+origin  git@github.com:germanbarba/estoEsPrue.git (fetch)
+origin  git@github.com:germanbarba/estoEsPrue.git (push)
+
+10. se hace un pull
+git pull 
+se emplea para extraer y descargar contenido desde 
+un repositorio remoto y actualizar al instante el repositorio 
+local para reflejar ese contenido
+
+11. se vuel a acutlizar los cambios en el proyecto local
+12. y luego se hace un push
+git push
+El comando git push se usa para cargar contenido del repositorio local a un repositorio 
+remoto. ... Es el equivalente de git fetch , pero en lugar de descargar importaciones de 
+commits en ramas locales, envía exportaciones de commits a ramas remotas. Las ramas remotas
+ se configuran mediante el comando git remote
+
+
+
+
+
+
+
+
 
 
 
